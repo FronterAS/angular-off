@@ -1,7 +1,5 @@
-(function (angular, undefined) {
+(function (module, undefined) {
     'use strict';
-
-    angular.module('ngOff', ['angular-off']);
 
     /* Config */
     module.config(['$provide', function ($provide) {
